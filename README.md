@@ -43,7 +43,7 @@ _template: {
   - Если передан `false`, то ответ будет в виде обычной svg разметки.
   
 ## Примеры
-1. *Пример генерации стилей:*
+1. *Пример генерации стилей: [codepen](https://codepen.io/neyasbltb_88/pen/JjPKxeV)*
     ```` js
     // Создадим элемент изображения
     let image = document.createElement('img');
@@ -66,7 +66,7 @@ _template: {
     document.head.appendChild(style);
     ````
 
-2. *Пример с атрибутом src:*
+2. *Пример с атрибутом src: [codepen](https://codepen.io/neyasbltb_88/pen/ZEzOwVR)*
     ```` js
     // Создадим элемент изображения
     let image = document.createElement('img');
@@ -81,7 +81,7 @@ _template: {
     document.body.appendChild(image);
     ````
 
-3. *Пример вставки на страницу чистого svg-кода*
+3. *Пример вставки на страницу чистого svg-кода: [codepen](https://codepen.io/neyasbltb_88/pen/vYBKbbO)*
     ```` js
     // Создадим блок-контейнер иконки
     let icon_container = document.createElement('div');
